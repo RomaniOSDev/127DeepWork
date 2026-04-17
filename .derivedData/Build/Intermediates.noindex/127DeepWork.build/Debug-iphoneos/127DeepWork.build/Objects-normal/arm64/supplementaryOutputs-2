@@ -1,0 +1,30 @@
+{
+  "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/127DeepWork/Config/AppLinks.swift" : {
+    "const-values" : "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/.derivedData/Build/Intermediates.noindex/127DeepWork.build/Debug-iphoneos/127DeepWork.build/Objects-normal/arm64/AppLinks.swiftconstvalues",
+    "dependencies" : "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/.derivedData/Build/Intermediates.noindex/127DeepWork.build/Debug-iphoneos/127DeepWork.build/Objects-normal/arm64/AppLinks.d",
+    "diagnostics" : "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/.derivedData/Build/Intermediates.noindex/127DeepWork.build/Debug-iphoneos/127DeepWork.build/Objects-normal/arm64/AppLinks.dia",
+    "object" : "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/.derivedData/Build/Intermediates.noindex/127DeepWork.build/Debug-iphoneos/127DeepWork.build/Objects-normal/arm64/AppLinks.o",
+    "swift-dependencies" : "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/.derivedData/Build/Intermediates.noindex/127DeepWork.build/Debug-iphoneos/127DeepWork.build/Objects-normal/arm64/AppLinks.swiftdeps"
+  },
+  "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/127DeepWork/Models/ActivityType.swift" : {
+    "const-values" : "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/.derivedData/Build/Intermediates.noindex/127DeepWork.build/Debug-iphoneos/127DeepWork.build/Objects-normal/arm64/ActivityType.swiftconstvalues",
+    "dependencies" : "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/.derivedData/Build/Intermediates.noindex/127DeepWork.build/Debug-iphoneos/127DeepWork.build/Objects-normal/arm64/ActivityType.d",
+    "diagnostics" : "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/.derivedData/Build/Intermediates.noindex/127DeepWork.build/Debug-iphoneos/127DeepWork.build/Objects-normal/arm64/ActivityType.dia",
+    "object" : "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/.derivedData/Build/Intermediates.noindex/127DeepWork.build/Debug-iphoneos/127DeepWork.build/Objects-normal/arm64/ActivityType.o",
+    "swift-dependencies" : "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/.derivedData/Build/Intermediates.noindex/127DeepWork.build/Debug-iphoneos/127DeepWork.build/Objects-normal/arm64/ActivityType.swiftdeps"
+  },
+  "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/127DeepWork/Models/DailyGoal.swift" : {
+    "const-values" : "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/.derivedData/Build/Intermediates.noindex/127DeepWork.build/Debug-iphoneos/127DeepWork.build/Objects-normal/arm64/DailyGoal.swiftconstvalues",
+    "dependencies" : "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/.derivedData/Build/Intermediates.noindex/127DeepWork.build/Debug-iphoneos/127DeepWork.build/Objects-normal/arm64/DailyGoal.d",
+    "diagnostics" : "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/.derivedData/Build/Intermediates.noindex/127DeepWork.build/Debug-iphoneos/127DeepWork.build/Objects-normal/arm64/DailyGoal.dia",
+    "object" : "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/.derivedData/Build/Intermediates.noindex/127DeepWork.build/Debug-iphoneos/127DeepWork.build/Objects-normal/arm64/DailyGoal.o",
+    "swift-dependencies" : "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/.derivedData/Build/Intermediates.noindex/127DeepWork.build/Debug-iphoneos/127DeepWork.build/Objects-normal/arm64/DailyGoal.swiftdeps"
+  },
+  "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/127DeepWork/Models/Distraction.swift" : {
+    "const-values" : "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/.derivedData/Build/Intermediates.noindex/127DeepWork.build/Debug-iphoneos/127DeepWork.build/Objects-normal/arm64/Distraction.swiftconstvalues",
+    "dependencies" : "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/.derivedData/Build/Intermediates.noindex/127DeepWork.build/Debug-iphoneos/127DeepWork.build/Objects-normal/arm64/Distraction.d",
+    "diagnostics" : "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/.derivedData/Build/Intermediates.noindex/127DeepWork.build/Debug-iphoneos/127DeepWork.build/Objects-normal/arm64/Distraction.dia",
+    "object" : "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/.derivedData/Build/Intermediates.noindex/127DeepWork.build/Debug-iphoneos/127DeepWork.build/Objects-normal/arm64/Distraction.o",
+    "swift-dependencies" : "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/.derivedData/Build/Intermediates.noindex/127DeepWork.build/Debug-iphoneos/127DeepWork.build/Objects-normal/arm64/Distraction.swiftdeps"
+  }
+}

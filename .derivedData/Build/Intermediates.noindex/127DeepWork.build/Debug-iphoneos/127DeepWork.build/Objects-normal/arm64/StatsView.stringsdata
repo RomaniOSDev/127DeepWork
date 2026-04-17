@@ -1,0 +1,80 @@
+{
+  "source": "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/127DeepWork/Views/StatsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Statistics",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 16
+        }
+      },
+      {
+        "comment": "",
+        "key": "Last 7 days",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 48
+        }
+      },
+      {
+        "comment": "",
+        "key": "Day",
+        "location": {
+          "startingColumn": 47,
+          "startingLine": 54
+        }
+      },
+      {
+        "comment": "",
+        "key": "Minutes",
+        "location": {
+          "startingColumn": 47,
+          "startingLine": 55
+        }
+      },
+      {
+        "comment": "",
+        "key": "Activity types",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 81
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld min",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 98
+        }
+      },
+      {
+        "comment": "",
+        "key": "(%lld%%)",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 100
+        }
+      },
+      {
+        "comment": "",
+        "key": "Productive hours",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 125
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld min",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 139
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,48 @@
+{
+  "source": "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/127DeepWork/Views/SessionDetailSheet.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Session",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 104
+        }
+      },
+      {
+        "comment": "",
+        "key": "Ended: %@",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 58
+        }
+      },
+      {
+        "comment": "",
+        "key": "Duration: %@",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 62
+        }
+      },
+      {
+        "comment": "",
+        "key": "Delete session",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 83
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 111
+        }
+      }
+    ]
+  },
+  "version": 1
+}

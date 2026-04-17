@@ -1,0 +1,136 @@
+{
+  "source": "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/127DeepWork/Views/HomeView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Delete",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 53
+        }
+      },
+      {
+        "comment": "",
+        "key": "1 session finished today",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 105
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld sessions finished today",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 106
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 160
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld%%",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 215
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld / %lld minutes",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 235
+        }
+      },
+      {
+        "comment": "",
+        "key": "Today's goal",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 222
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 227
+        }
+      },
+      {
+        "comment": "",
+        "key": "Set a daily goal",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 262
+        }
+      },
+      {
+        "comment": "",
+        "key": "Track how much focus time you want each day.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 265
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start focus session",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 343
+        }
+      },
+      {
+        "comment": "",
+        "key": "Begin tracking deep work with a timer.",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 346
+        }
+      },
+      {
+        "comment": "",
+        "key": "No sessions yet",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 435
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pull down to refresh goals, or start a focus session above.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 438
+        }
+      },
+      {
+        "comment": "",
+        "key": "Recent sessions",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 451
+        }
+      },
+      {
+        "comment": "",
+        "key": "Last %lld",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 456
+        }
+      }
+    ]
+  },
+  "version": 1
+}

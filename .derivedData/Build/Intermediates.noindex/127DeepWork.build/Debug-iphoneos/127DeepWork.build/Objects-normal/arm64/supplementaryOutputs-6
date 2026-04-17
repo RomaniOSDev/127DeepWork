@@ -1,0 +1,23 @@
+{
+  "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/127DeepWork/Views/AnalyticsView.swift" : {
+    "const-values" : "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/.derivedData/Build/Intermediates.noindex/127DeepWork.build/Debug-iphoneos/127DeepWork.build/Objects-normal/arm64/AnalyticsView.swiftconstvalues",
+    "dependencies" : "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/.derivedData/Build/Intermediates.noindex/127DeepWork.build/Debug-iphoneos/127DeepWork.build/Objects-normal/arm64/AnalyticsView.d",
+    "diagnostics" : "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/.derivedData/Build/Intermediates.noindex/127DeepWork.build/Debug-iphoneos/127DeepWork.build/Objects-normal/arm64/AnalyticsView.dia",
+    "object" : "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/.derivedData/Build/Intermediates.noindex/127DeepWork.build/Debug-iphoneos/127DeepWork.build/Objects-normal/arm64/AnalyticsView.o",
+    "swift-dependencies" : "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/.derivedData/Build/Intermediates.noindex/127DeepWork.build/Debug-iphoneos/127DeepWork.build/Objects-normal/arm64/AnalyticsView.swiftdeps"
+  },
+  "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/127DeepWork/Views/ContentView.swift" : {
+    "const-values" : "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/.derivedData/Build/Intermediates.noindex/127DeepWork.build/Debug-iphoneos/127DeepWork.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/.derivedData/Build/Intermediates.noindex/127DeepWork.build/Debug-iphoneos/127DeepWork.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/.derivedData/Build/Intermediates.noindex/127DeepWork.build/Debug-iphoneos/127DeepWork.build/Objects-normal/arm64/ContentView.dia",
+    "object" : "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/.derivedData/Build/Intermediates.noindex/127DeepWork.build/Debug-iphoneos/127DeepWork.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/.derivedData/Build/Intermediates.noindex/127DeepWork.build/Debug-iphoneos/127DeepWork.build/Objects-normal/arm64/ContentView.swiftdeps"
+  },
+  "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/127DeepWork/Views/EditGoalsView.swift" : {
+    "const-values" : "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/.derivedData/Build/Intermediates.noindex/127DeepWork.build/Debug-iphoneos/127DeepWork.build/Objects-normal/arm64/EditGoalsView.swiftconstvalues",
+    "dependencies" : "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/.derivedData/Build/Intermediates.noindex/127DeepWork.build/Debug-iphoneos/127DeepWork.build/Objects-normal/arm64/EditGoalsView.d",
+    "diagnostics" : "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/.derivedData/Build/Intermediates.noindex/127DeepWork.build/Debug-iphoneos/127DeepWork.build/Objects-normal/arm64/EditGoalsView.dia",
+    "object" : "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/.derivedData/Build/Intermediates.noindex/127DeepWork.build/Debug-iphoneos/127DeepWork.build/Objects-normal/arm64/EditGoalsView.o",
+    "swift-dependencies" : "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/.derivedData/Build/Intermediates.noindex/127DeepWork.build/Debug-iphoneos/127DeepWork.build/Objects-normal/arm64/EditGoalsView.swiftdeps"
+  }
+}

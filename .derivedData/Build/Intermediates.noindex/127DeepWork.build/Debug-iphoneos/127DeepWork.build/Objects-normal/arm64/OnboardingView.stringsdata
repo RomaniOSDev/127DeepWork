@@ -1,0 +1,40 @@
+{
+  "source": "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/127DeepWork/Views/Onboarding/OnboardingView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Skip",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 42
+        }
+      },
+      {
+        "comment": "",
+        "key": "Next",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 74
+        }
+      },
+      {
+        "comment": "",
+        "key": "Get started",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 87
+        }
+      },
+      {
+        "comment": "",
+        "key": "Back",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 104
+        }
+      }
+    ]
+  },
+  "version": 1
+}

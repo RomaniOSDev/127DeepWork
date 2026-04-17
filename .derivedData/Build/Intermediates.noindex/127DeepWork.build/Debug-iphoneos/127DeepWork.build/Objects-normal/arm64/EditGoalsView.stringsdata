@@ -1,0 +1,56 @@
+{
+  "source": "/Users/roman/Documents/XcodeProgramm/9 comand Ярослав/127DeepWork/127DeepWork/Views/EditGoalsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Edit goals",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 35
+        }
+      },
+      {
+        "comment": "",
+        "key": "Daily target: %lld min",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 19
+        }
+      },
+      {
+        "comment": "",
+        "key": "Weekly target: %lld min",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 20
+        }
+      },
+      {
+        "comment": "",
+        "key": "Targets apply from today and this week.",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 22
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 42
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 46
+        }
+      }
+    ]
+  },
+  "version": 1
+}

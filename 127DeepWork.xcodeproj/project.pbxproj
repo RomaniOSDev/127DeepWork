@@ -3,33 +3,89 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		303AAFF52F92C3FA003AE63D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303AAFEC2F92C3FA003AE63D /* Assets.xcassets */; };
+		303AAFF72F92C3FA003AE63D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303AAFEF2F92C3FA003AE63D /* LaunchScreen.storyboard */; };
+		303AAFF82F92C3FA003AE63D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303AAFF12F92C3FA003AE63D /* Main.storyboard */; };
+		303AAFF92F92C3FA003AE63D /* GoalCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AAFC62F92C3FA003AE63D /* GoalCard.swift */; };
+		303AAFFA2F92C3FA003AE63D /* SessionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AAFC72F92C3FA003AE63D /* SessionRow.swift */; };
+		303AAFFB2F92C3FA003AE63D /* StatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AAFC82F92C3FA003AE63D /* StatCard.swift */; };
+		303AAFFC2F92C3FA003AE63D /* TaskCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AAFC92F92C3FA003AE63D /* TaskCard.swift */; };
+		303AAFFD2F92C3FA003AE63D /* AppLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AAFCB2F92C3FA003AE63D /* AppLinks.swift */; };
+		303AAFFE2F92C3FA003AE63D /* ActivityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AAFCD2F92C3FA003AE63D /* ActivityType.swift */; };
+		303AAFFF2F92C3FA003AE63D /* DailyGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AAFCE2F92C3FA003AE63D /* DailyGoal.swift */; };
+		303AB0002F92C3FA003AE63D /* Distraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AAFCF2F92C3FA003AE63D /* Distraction.swift */; };
+		303AB0012F92C3FA003AE63D /* FocusTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AAFD02F92C3FA003AE63D /* FocusTask.swift */; };
+		303AB0022F92C3FA003AE63D /* ProductivityStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AAFD12F92C3FA003AE63D /* ProductivityStat.swift */; };
+		303AB0032F92C3FA003AE63D /* SessionStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AAFD22F92C3FA003AE63D /* SessionStatus.swift */; };
+		303AB0042F92C3FA003AE63D /* WeeklyGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AAFD32F92C3FA003AE63D /* WeeklyGoal.swift */; };
+		303AB0052F92C3FA003AE63D /* WorkSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AAFD42F92C3FA003AE63D /* WorkSession.swift */; };
+		303AB0062F92C3FA003AE63D /* DeepColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AAFD62F92C3FA003AE63D /* DeepColors.swift */; };
+		303AB0072F92C3FA003AE63D /* DeepVisualStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AAFD72F92C3FA003AE63D /* DeepVisualStyle.swift */; };
+		303AB0082F92C3FA003AE63D /* DateFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AAFD92F92C3FA003AE63D /* DateFormatting.swift */; };
+		303AB0092F92C3FA003AE63D /* DeepWorkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AAFDB2F92C3FA003AE63D /* DeepWorkViewModel.swift */; };
+		303AB00A2F92C3FA003AE63D /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AAFDD2F92C3FA003AE63D /* OnboardingView.swift */; };
+		303AB00B2F92C3FA003AE63D /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AAFDF2F92C3FA003AE63D /* AnalyticsView.swift */; };
+		303AB00C2F92C3FA003AE63D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AAFE02F92C3FA003AE63D /* ContentView.swift */; };
+		303AB00D2F92C3FA003AE63D /* EditGoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AAFE12F92C3FA003AE63D /* EditGoalsView.swift */; };
+		303AB00E2F92C3FA003AE63D /* GoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AAFE22F92C3FA003AE63D /* GoalsView.swift */; };
+		303AB00F2F92C3FA003AE63D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AAFE32F92C3FA003AE63D /* HomeView.swift */; };
+		303AB0102F92C3FA003AE63D /* NewSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AAFE42F92C3FA003AE63D /* NewSessionView.swift */; };
+		303AB0112F92C3FA003AE63D /* SessionDetailSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AAFE52F92C3FA003AE63D /* SessionDetailSheet.swift */; };
+		303AB0122F92C3FA003AE63D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AAFE62F92C3FA003AE63D /* SettingsView.swift */; };
+		303AB0132F92C3FA003AE63D /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AAFE72F92C3FA003AE63D /* StatsView.swift */; };
+		303AB0142F92C3FA003AE63D /* TaskEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AAFE82F92C3FA003AE63D /* TaskEditorView.swift */; };
+		303AB0152F92C3FA003AE63D /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AAFE92F92C3FA003AE63D /* TasksView.swift */; };
+		303AB0162F92C3FA003AE63D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AAFEB2F92C3FA003AE63D /* AppDelegate.swift */; };
+		303AB0172F92C3FA003AE63D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AAFF22F92C3FA003AE63D /* SceneDelegate.swift */; };
+		303AB0182F92C3FA003AE63D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AAFF32F92C3FA003AE63D /* ViewController.swift */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		302782052F8A72A8005A3233 /* 127DeepWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 127DeepWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		303AAFC62F92C3FA003AE63D /* GoalCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCard.swift; sourceTree = "<group>"; };
+		303AAFC72F92C3FA003AE63D /* SessionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionRow.swift; sourceTree = "<group>"; };
+		303AAFC82F92C3FA003AE63D /* StatCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatCard.swift; sourceTree = "<group>"; };
+		303AAFC92F92C3FA003AE63D /* TaskCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCard.swift; sourceTree = "<group>"; };
+		303AAFCB2F92C3FA003AE63D /* AppLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLinks.swift; sourceTree = "<group>"; };
+		303AAFCD2F92C3FA003AE63D /* ActivityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityType.swift; sourceTree = "<group>"; };
+		303AAFCE2F92C3FA003AE63D /* DailyGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyGoal.swift; sourceTree = "<group>"; };
+		303AAFCF2F92C3FA003AE63D /* Distraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Distraction.swift; sourceTree = "<group>"; };
+		303AAFD02F92C3FA003AE63D /* FocusTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTask.swift; sourceTree = "<group>"; };
+		303AAFD12F92C3FA003AE63D /* ProductivityStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductivityStat.swift; sourceTree = "<group>"; };
+		303AAFD22F92C3FA003AE63D /* SessionStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStatus.swift; sourceTree = "<group>"; };
+		303AAFD32F92C3FA003AE63D /* WeeklyGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyGoal.swift; sourceTree = "<group>"; };
+		303AAFD42F92C3FA003AE63D /* WorkSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkSession.swift; sourceTree = "<group>"; };
+		303AAFD62F92C3FA003AE63D /* DeepColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepColors.swift; sourceTree = "<group>"; };
+		303AAFD72F92C3FA003AE63D /* DeepVisualStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepVisualStyle.swift; sourceTree = "<group>"; };
+		303AAFD92F92C3FA003AE63D /* DateFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatting.swift; sourceTree = "<group>"; };
+		303AAFDB2F92C3FA003AE63D /* DeepWorkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepWorkViewModel.swift; sourceTree = "<group>"; };
+		303AAFDD2F92C3FA003AE63D /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		303AAFDF2F92C3FA003AE63D /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
+		303AAFE02F92C3FA003AE63D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		303AAFE12F92C3FA003AE63D /* EditGoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditGoalsView.swift; sourceTree = "<group>"; };
+		303AAFE22F92C3FA003AE63D /* GoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsView.swift; sourceTree = "<group>"; };
+		303AAFE32F92C3FA003AE63D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		303AAFE42F92C3FA003AE63D /* NewSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSessionView.swift; sourceTree = "<group>"; };
+		303AAFE52F92C3FA003AE63D /* SessionDetailSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDetailSheet.swift; sourceTree = "<group>"; };
+		303AAFE62F92C3FA003AE63D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		303AAFE72F92C3FA003AE63D /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		303AAFE82F92C3FA003AE63D /* TaskEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditorView.swift; sourceTree = "<group>"; };
+		303AAFE92F92C3FA003AE63D /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		303AAFEB2F92C3FA003AE63D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		303AAFEC2F92C3FA003AE63D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		303AAFED2F92C3FA003AE63D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		303AAFEE2F92C3FA003AE63D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		303AAFF02F92C3FA003AE63D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		303AAFF22F92C3FA003AE63D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		303AAFF32F92C3FA003AE63D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4F0C4208711EEF5997DBF559 /* Pods-127DeepWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-127DeepWork.release.xcconfig"; path = "Target Support Files/Pods-127DeepWork/Pods-127DeepWork.release.xcconfig"; sourceTree = "<group>"; };
+		5ED733468BDBFC530B546397 /* Pods_127DeepWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_127DeepWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB19A6C2BC2A8CC1FE3232F4 /* Pods-127DeepWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-127DeepWork.debug.xcconfig"; path = "Target Support Files/Pods-127DeepWork/Pods-127DeepWork.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		302782172F8A72AA005A3233 /* Exceptions for "127DeepWork" folder in "127DeepWork" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 302782042F8A72A8005A3233 /* 127DeepWork */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		302782072F8A72A8005A3233 /* 127DeepWork */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				302782172F8A72AA005A3233 /* Exceptions for "127DeepWork" folder in "127DeepWork" target */,
-			);
-			path = 127DeepWork;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		302782022F8A72A8005A3233 /* Frameworks */ = {
@@ -45,8 +101,10 @@
 		302781FC2F8A72A8005A3233 = {
 			isa = PBXGroup;
 			children = (
-				302782072F8A72A8005A3233 /* 127DeepWork */,
+				303AAFF42F92C3FA003AE63D /* 127DeepWork */,
 				302782062F8A72A8005A3233 /* Products */,
+				AE31C25EC933887BCA2E81D2 /* Pods */,
+				78289DB1E6F5F54929059F90 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +116,130 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		303AAFCA2F92C3FA003AE63D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				303AAFC62F92C3FA003AE63D /* GoalCard.swift */,
+				303AAFC72F92C3FA003AE63D /* SessionRow.swift */,
+				303AAFC82F92C3FA003AE63D /* StatCard.swift */,
+				303AAFC92F92C3FA003AE63D /* TaskCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		303AAFCC2F92C3FA003AE63D /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				303AAFCB2F92C3FA003AE63D /* AppLinks.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		303AAFD52F92C3FA003AE63D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				303AAFCD2F92C3FA003AE63D /* ActivityType.swift */,
+				303AAFCE2F92C3FA003AE63D /* DailyGoal.swift */,
+				303AAFCF2F92C3FA003AE63D /* Distraction.swift */,
+				303AAFD02F92C3FA003AE63D /* FocusTask.swift */,
+				303AAFD12F92C3FA003AE63D /* ProductivityStat.swift */,
+				303AAFD22F92C3FA003AE63D /* SessionStatus.swift */,
+				303AAFD32F92C3FA003AE63D /* WeeklyGoal.swift */,
+				303AAFD42F92C3FA003AE63D /* WorkSession.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		303AAFD82F92C3FA003AE63D /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				303AAFD62F92C3FA003AE63D /* DeepColors.swift */,
+				303AAFD72F92C3FA003AE63D /* DeepVisualStyle.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		303AAFDA2F92C3FA003AE63D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				303AAFD92F92C3FA003AE63D /* DateFormatting.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		303AAFDC2F92C3FA003AE63D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				303AAFDB2F92C3FA003AE63D /* DeepWorkViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		303AAFDE2F92C3FA003AE63D /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				303AAFDD2F92C3FA003AE63D /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		303AAFEA2F92C3FA003AE63D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				303AAFDE2F92C3FA003AE63D /* Onboarding */,
+				303AAFDF2F92C3FA003AE63D /* AnalyticsView.swift */,
+				303AAFE02F92C3FA003AE63D /* ContentView.swift */,
+				303AAFE12F92C3FA003AE63D /* EditGoalsView.swift */,
+				303AAFE22F92C3FA003AE63D /* GoalsView.swift */,
+				303AAFE32F92C3FA003AE63D /* HomeView.swift */,
+				303AAFE42F92C3FA003AE63D /* NewSessionView.swift */,
+				303AAFE52F92C3FA003AE63D /* SessionDetailSheet.swift */,
+				303AAFE62F92C3FA003AE63D /* SettingsView.swift */,
+				303AAFE72F92C3FA003AE63D /* StatsView.swift */,
+				303AAFE82F92C3FA003AE63D /* TaskEditorView.swift */,
+				303AAFE92F92C3FA003AE63D /* TasksView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		303AAFF42F92C3FA003AE63D /* 127DeepWork */ = {
+			isa = PBXGroup;
+			children = (
+				303AAFCA2F92C3FA003AE63D /* Components */,
+				303AAFCC2F92C3FA003AE63D /* Config */,
+				303AAFD52F92C3FA003AE63D /* Models */,
+				303AAFD82F92C3FA003AE63D /* Theme */,
+				303AAFDA2F92C3FA003AE63D /* Utilities */,
+				303AAFDC2F92C3FA003AE63D /* ViewModels */,
+				303AAFEA2F92C3FA003AE63D /* Views */,
+				303AAFEB2F92C3FA003AE63D /* AppDelegate.swift */,
+				303AAFEC2F92C3FA003AE63D /* Assets.xcassets */,
+				303AAFED2F92C3FA003AE63D /* Info.plist */,
+				303AAFEF2F92C3FA003AE63D /* LaunchScreen.storyboard */,
+				303AAFF12F92C3FA003AE63D /* Main.storyboard */,
+				303AAFF22F92C3FA003AE63D /* SceneDelegate.swift */,
+				303AAFF32F92C3FA003AE63D /* ViewController.swift */,
+			);
+			path = 127DeepWork;
+			sourceTree = "<group>";
+		};
+		78289DB1E6F5F54929059F90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5ED733468BDBFC530B546397 /* Pods_127DeepWork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE31C25EC933887BCA2E81D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB19A6C2BC2A8CC1FE3232F4 /* Pods-127DeepWork.debug.xcconfig */,
+				4F0C4208711EEF5997DBF559 /* Pods-127DeepWork.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +247,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 302782182F8A72AA005A3233 /* Build configuration list for PBXNativeTarget "127DeepWork" */;
 			buildPhases = (
+				D4F6D79E6B4CF9B4349685B4 /* [CP] Check Pods Manifest.lock */,
 				302782012F8A72A8005A3233 /* Sources */,
 				302782022F8A72A8005A3233 /* Frameworks */,
 				302782032F8A72A8005A3233 /* Resources */,
@@ -73,12 +256,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				302782072F8A72A8005A3233 /* 127DeepWork */,
-			);
 			name = 127DeepWork;
-			packageProductDependencies = (
-			);
 			productName = 127DeepWork;
 			productReference = 302782052F8A72A8005A3233 /* 127DeepWork.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +277,7 @@
 				};
 			};
 			buildConfigurationList = 302782002F8A72A8005A3233 /* Build configuration list for PBXProject "127DeepWork" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +285,6 @@
 				Base,
 			);
 			mainGroup = 302781FC2F8A72A8005A3233;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 302782062F8A72A8005A3233 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +299,104 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				303AAFF52F92C3FA003AE63D /* Assets.xcassets in Resources */,
+				303AAFF72F92C3FA003AE63D /* LaunchScreen.storyboard in Resources */,
+				303AAFF82F92C3FA003AE63D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D4F6D79E6B4CF9B4349685B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-127DeepWork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		302782012F8A72A8005A3233 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				303AAFF92F92C3FA003AE63D /* GoalCard.swift in Sources */,
+				303AAFFA2F92C3FA003AE63D /* SessionRow.swift in Sources */,
+				303AAFFB2F92C3FA003AE63D /* StatCard.swift in Sources */,
+				303AAFFC2F92C3FA003AE63D /* TaskCard.swift in Sources */,
+				303AAFFD2F92C3FA003AE63D /* AppLinks.swift in Sources */,
+				303AAFFE2F92C3FA003AE63D /* ActivityType.swift in Sources */,
+				303AAFFF2F92C3FA003AE63D /* DailyGoal.swift in Sources */,
+				303AB0002F92C3FA003AE63D /* Distraction.swift in Sources */,
+				303AB0012F92C3FA003AE63D /* FocusTask.swift in Sources */,
+				303AB0022F92C3FA003AE63D /* ProductivityStat.swift in Sources */,
+				303AB0032F92C3FA003AE63D /* SessionStatus.swift in Sources */,
+				303AB0042F92C3FA003AE63D /* WeeklyGoal.swift in Sources */,
+				303AB0052F92C3FA003AE63D /* WorkSession.swift in Sources */,
+				303AB0062F92C3FA003AE63D /* DeepColors.swift in Sources */,
+				303AB0072F92C3FA003AE63D /* DeepVisualStyle.swift in Sources */,
+				303AB0082F92C3FA003AE63D /* DateFormatting.swift in Sources */,
+				303AB0092F92C3FA003AE63D /* DeepWorkViewModel.swift in Sources */,
+				303AB00A2F92C3FA003AE63D /* OnboardingView.swift in Sources */,
+				303AB00B2F92C3FA003AE63D /* AnalyticsView.swift in Sources */,
+				303AB00C2F92C3FA003AE63D /* ContentView.swift in Sources */,
+				303AB00D2F92C3FA003AE63D /* EditGoalsView.swift in Sources */,
+				303AB00E2F92C3FA003AE63D /* GoalsView.swift in Sources */,
+				303AB00F2F92C3FA003AE63D /* HomeView.swift in Sources */,
+				303AB0102F92C3FA003AE63D /* NewSessionView.swift in Sources */,
+				303AB0112F92C3FA003AE63D /* SessionDetailSheet.swift in Sources */,
+				303AB0122F92C3FA003AE63D /* SettingsView.swift in Sources */,
+				303AB0132F92C3FA003AE63D /* StatsView.swift in Sources */,
+				303AB0142F92C3FA003AE63D /* TaskEditorView.swift in Sources */,
+				303AB0152F92C3FA003AE63D /* TasksView.swift in Sources */,
+				303AB0162F92C3FA003AE63D /* AppDelegate.swift in Sources */,
+				303AB0172F92C3FA003AE63D /* SceneDelegate.swift in Sources */,
+				303AB0182F92C3FA003AE63D /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		303AAFEF2F92C3FA003AE63D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				303AAFEE2F92C3FA003AE63D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		303AAFF12F92C3FA003AE63D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				303AAFF02F92C3FA003AE63D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		302782192F8A72AA005A3233 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB19A6C2BC2A8CC1FE3232F4 /* Pods-127DeepWork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -150,27 +407,33 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-27DeepWork";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jam.spr9nt6tl2st3ss3r;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3027821A2F8A72AA005A3233 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F0C4208711EEF5997DBF559 /* Pods-127DeepWork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -181,22 +444,27 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-27DeepWork";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jam.spr9nt6tl2st3ss3r;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
